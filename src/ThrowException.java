@@ -1,8 +1,7 @@
-public class Main {
+public class ThrowException {
     public static void main(String[] args)
     {
-        Lucrator lucrator1 = new Lucrator("Andrei");
-        //Lucrator lucrator1 = null;
+        Lucrator lucrator1 = null;
         try
         {
             lucrator1.lucreaza("Joi");
@@ -13,13 +12,10 @@ public class Main {
         {
             System.out.println(exceptieZiNelucratoare.getMessage());
         }
-        catch (NullPointerException e)
+        catch (Exception e)
         {
-            System.out.println("Lucrator inexistent sau null!");
-            //e.printStackTrace();
-        }
-        finally {
-            System.out.println("Maine va fi o noua zi!");
+            System.out.println("exceptie!");
+            e.printStackTrace();
         }
     }
 }
