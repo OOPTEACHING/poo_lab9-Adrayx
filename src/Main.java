@@ -1,25 +1,35 @@
 public class Main {
     public static void main(String[] args)
     {
-        Lucrator lucrator1 = new Lucrator("Andrei");
-        //Lucrator lucrator1 = null;
+//        Lucrator lucrator1 = new Lucrator("Andrei");
+//        //Lucrator lucrator1 = null;
+//        try
+//        {
+//            lucrator1.lucreaza("Joi");
+//            lucrator1.lucreaza("Maine");
+//            lucrator1.lucreaza("Sambata");
+//        }
+//        catch (ExceptieZiNelucratoare exceptieZiNelucratoare)
+//        {
+//            System.out.println(exceptieZiNelucratoare.getMessage());
+//        }
+//        catch (NullPointerException e)
+//        {
+//            System.out.println("Lucrator inexistent sau null!");
+//            //e.printStackTrace();
+//        }
+//        finally {
+//            System.out.println("Maine va fi o noua zi!");
+//        }
+
+        ClasaExceptiiFG nou = new ClasaExceptiiFG();
         try
         {
-            lucrator1.lucreaza("Joi");
-            lucrator1.lucreaza("Maine");
-            lucrator1.lucreaza("Sambata");
+            nou.f();
         }
-        catch (ExceptieZiNelucratoare exceptieZiNelucratoare)
+        catch(ExceptieF e)
         {
-            System.out.println(exceptieZiNelucratoare.getMessage());
-        }
-        catch (NullPointerException e)
-        {
-            System.out.println("Lucrator inexistent sau null!");
-            //e.printStackTrace();
-        }
-        finally {
-            System.out.println("Maine va fi o noua zi!");
+            System.out.println(e.msg);
         }
     }
 }
