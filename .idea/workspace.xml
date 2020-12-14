@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="377a27fd-4bcf-4d83-92d0-6f1e254d96be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ClasaExceptiiFG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptieF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptieG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptieNivel1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptieNivel2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptieNivel3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -71,13 +74,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,7 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606679268634</updated>
       <workItem from="1606679269694" duration="21000" />
-      <workItem from="1607883783124" duration="3240000" />
+      <workItem from="1607883783124" duration="5969000" />
+      <workItem from="1607936480148" duration="891000" />
     </task>
     <servers />
   </component>
@@ -114,11 +120,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1038" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1607886673652">
+    <state width="1039" height="269" key="GridCell.Tab.0.bottom" timestamp="1607937379018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1038" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607886673652" />
+    <state width="1039" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607937379018" />
+    <state width="1039" height="269" key="GridCell.Tab.0.center" timestamp="1607937379018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1039" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607937379018" />
+    <state width="1039" height="269" key="GridCell.Tab.0.left" timestamp="1607937379018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1039" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607937379018" />
+    <state width="1039" height="269" key="GridCell.Tab.0.right" timestamp="1607937379018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1039" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607937379018" />
+    <state x="1038" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1607888457329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1038" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607888457329" />
   </component>
 </project>

@@ -22,12 +22,22 @@ public class Main {
 //            System.out.println("Maine va fi o noua zi!");
 //        }
 
-        ClasaExceptiiFG nou = new ClasaExceptiiFG();
-        try
-        {
-            nou.f();
+//        ClasaExceptiiFG nou = new ClasaExceptiiFG();
+//        try
+//        {
+//            nou.f();
+//        }
+//        catch(ExceptieF e)
+//        {
+//            System.out.println(e.msg);
+//        }
+
+        C var;
+        var = new C();
+        try {
+            ((A)var).throwEx();
         }
-        catch(ExceptieF e)
+        catch (ExceptieNivel1 e)
         {
             System.out.println(e.msg);
         }
